@@ -38,10 +38,10 @@ if (date) {
 //Rebuild table using filter data
   // @NOTE: If no date was entered, then filteredData will
   //original table data
-  builtTable(filteredData);
+  buildTable(filteredData);
 }
 //Attach an event to listen for the form button
-d3.selectALl("#filter-btn").on("click", handleClick);
+d3.selectAll("#filter-btn").on("click", handleClick);
 
 //Build the table when the page loads
-builTable(tableData);
+buildTable(tableData);
