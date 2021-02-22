@@ -7,6 +7,26 @@ Dana, a journalist is seeking to write a story about her hometown of McMinnville
 The page is set up so that automatically the results are displayed in chronological order beginning with the first of January 2010 and ending on the 13th of that month (see image below). Initially, a filter button was written into the index.html file to filter based on date. Upon further assessment, it seemed better to filter based on a broader array of search criteria. With this in mind, I chose to use the key-value pairs of each object in the dictionary as a basis for search specifications. As the search engine is designed in such a way that only exact matches will display, the narrower categories (such as date) are less likely to turn up results. In the app.js file I wrote in a template for a model search. Such a template is show in the image below. The suggested search is so targeted that if entered in and processed, one single result is generated.  
 
 
+
+
+
+
+
+
+
+
+![image](https://github.com/mcpoley/UFOS/blob/main/static/images/data_as_it_first_appears.png)
+
+
+
+
+
+
+
+
+
+
+
 ![image](https://github.com/mcpoley/UFOS/blob/main/static/images/search%20template.png)
 
 
